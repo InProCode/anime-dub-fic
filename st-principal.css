@@ -1,0 +1,161 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    height: 100%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+body {
+
+    background-color: #EACDC2;
+    height: 100%;
+
+}
+
+.contenedor {
+
+    min-height: 100%;
+    display: grid;
+
+    grid-template:
+        "header"        50px
+        "navegacion"    50px
+        "contenido"     auto
+        "footer"        50px
+        ;
+
+}
+
+/* --HEADER-- */
+
+.header {
+
+    background-color: #1A1423;
+
+    grid-area: header;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,40%);
+
+}
+
+.header .logo a {
+
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* --NAVEGACIÓN-- */
+
+.navegacion {
+    background-color: #1A1423;
+
+    grid-area: navegacion;
+
+    align-content: center;
+    margin: 0;
+    
+}
+
+.navegacion ul {
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.navegacion ul a {
+
+    text-decoration: none;
+    color: #FFF;
+    margin: 0 6px 0 6px;
+    padding: 8px;
+    border-radius: 50px;
+    transition: all 0.3s;
+
+}
+
+.navegacion ul a:hover {
+
+    color: #EACDC2;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 0 0 15px #ffffff80;
+
+}
+
+.navegacion ul a.activo {
+
+    color: #EACDC2;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 0 0 15px #ffffff80;
+
+}
+
+.navegacion ul a.activo:hover {
+
+    color: #FFF;
+
+}
+
+.navegacion ul a li {
+
+    font-size: larger;
+
+}
+
+.navegacion ul a li i {
+
+    padding-right: 5px;
+
+}
+
+/* --CONTENIDO-- */
+
+.contenido {
+
+    grid-area: contenido;
+
+}
+
+/* --FOOTER-- */
+
+.footer {
+
+    background-color: #1A1423;
+
+    grid-area: footer;
+
+    color: #FFF;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.footer div {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+
+}

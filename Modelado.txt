@@ -1,0 +1,29 @@
+/* Navegación */
+
+1.- Inicio
+	*Bienvenida
+2.- Doblajes
+	*Anime
+	*Fan Fic
+3.- Historias
+	*Originales
+	-Atropics
+	*Fan Fic
+	-What IF
+4.- Sobre Nostros
+	*Información del proyecto
+	-De que se trata
+	-Fundador
+	-Gerente
+	-Miembros
+	
+/* Multimedia */
+- Imagenes
+- Videos
+
+/* Paleta de Colores */
+#1A1423
+#372549
+#774C60
+#B75D69
+#EACDC2
