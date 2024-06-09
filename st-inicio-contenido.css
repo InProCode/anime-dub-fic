@@ -1,0 +1,27 @@
+.contenido {
+
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.contenido .bienvenida {
+
+    color: #FFF;
+    margin: 100px 0 0 0;
+    text-align: center;
+
+}
+
+.contenido .bienvenida h1 {
+
+    font-size: 50px;
+
+}
+
+.contenido .bienvenida p {
+
+    margin: 50px 0 0 0;
+    font-size: xx-large;
+
+}
