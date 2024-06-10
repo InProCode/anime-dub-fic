@@ -1,0 +1,63 @@
+.contenido {
+
+    width: 900px;
+    margin: 0 auto;
+    background: rgba(26 , 20, 35, 0.20);
+    border-radius: 50px;
+
+}
+
+.contenido .bienvenida {
+
+    color: #FFF;
+    margin: 50px 0 0 0;
+    text-align: center;
+
+}
+
+.contenido .bienvenida h1 {
+
+    font-size: 50px;
+
+}
+
+.contenido .bienvenida p {
+
+    margin: 50px 0 0 0;
+    font-size: xx-large;
+    font-weight: 350;
+
+}
+
+.contexto-nav {
+    
+    display: block;
+    align-items: center;
+    margin: 0;
+
+}
+
+.contexto-nav ul{
+
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+
+.contexto-nav ul a {
+
+    text-decoration: none;
+    color: #FFF;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.contexto-nav ul a li i {
+
+    padding-right: 5px;
+
+}
