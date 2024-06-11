@@ -22,6 +22,16 @@ body {
 
 }
 
+.index-home {
+
+    background: url(recursos/galaxy-3696058_1920.jpg) no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
 .contenedor {
 
     min-height: 100%;
@@ -42,13 +52,23 @@ body {
 
     background-color: #1A1423;
 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
     grid-area: header;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,40%);
+
+}
+
+.index-home .header {
+
+    background: rgba(26 , 20, 35, 0.50);
 
 }
 
@@ -63,13 +83,28 @@ body {
 /* --NAVEGACIÓN-- */
 
 .navegacion {
+
     background-color: #1A1423;
+
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    z-index: 1;
 
     grid-area: navegacion;
 
     align-content: center;
     margin: 0;
+
+    box-shadow: 0 2px 0 0 rgba(0,0,0,40%);
+
     
+}
+
+.index-home .navegacion {
+
+    background: rgba(26 , 20, 35, 0.50);
+
 }
 
 .navegacion ul {
@@ -97,7 +132,7 @@ body {
     color: #EACDC2;
     font-weight: bold;
     font-size: larger;
-    text-shadow: 0 0 15px #ffffff80;
+    text-shadow: 0 0 15px #ffffff93;
 
 }
 
@@ -106,7 +141,7 @@ body {
     color: #EACDC2;
     font-weight: bold;
     font-size: larger;
-    text-shadow: 0 0 15px #ffffff80;
+    text-shadow: 0 0 15px #ffffff93;
 
 }
 
@@ -147,6 +182,12 @@ body {
     color: #FFF;
     font-weight: bold;
     font-size: larger;
+
+}
+
+.index-home .footer {
+
+    background: rgba(26 , 20, 35, 0.50);
 
 }
 
